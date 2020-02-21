@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="411" height="411" viewBox="0 0 411 411">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.04" x2="1.056" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9800"/>
+      <stop offset="1" stop-color="#ff5785"/>
+    </linearGradient>
+  </defs>
+  <g id="AR" transform="translate(-2047 -669)">
+    <rect id="Rectangle_46" data-name="Rectangle 46" width="411" height="411" transform="translate(2047 669)" fill="#fff" opacity="0"/>
+    <g id="_x39__Augmented_reality" transform="translate(2052.5 694)">
+      <g id="Group_73" data-name="Group 73" transform="translate(8 16)">
+        <path id="Union_5" data-name="Union 5" d="M-1823.5-3126v-68.75h27.5v41.25h41.251v-41.25h27.5v41.25H-1686v-41.25h27.5V-3126Zm-82.5-82.5a27.581,27.581,0,0,1-27.5-27.5v-165a27.581,27.581,0,0,1,27.5-27.5h181.156A41.267,41.267,0,0,1-1686-3456a41.266,41.266,0,0,1,38.843,27.5H-1576a27.581,27.581,0,0,1,27.5,27.5v165a27.581,27.581,0,0,1-27.5,27.5Zm302.5-27.5h27.5v-165h-27.5Zm-123.75,0H-1686v-27.5h-41.251Zm-68.75,0h41.251v-82.5H-1796Zm-55,0h27.5v-110h96.25v55h68.75v54.657h27.5v-165h-16.5c-6.187,17.531-20.281,39.188-27.156,49.156l-11.344,16.5-11.344-16.157c-6.875-10.312-20.969-31.625-27.157-49.156H-1851Zm-55,0h27.5v-165H-1906Zm206.25-178.751c0,4.126,5.844,16.157,13.75,29.563,7.906-13.406,13.749-25.437,13.749-29.563A13.79,13.79,0,0,0-1686-3428.5,13.79,13.79,0,0,0-1699.75-3414.75Z" transform="translate(1933.5 3456)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

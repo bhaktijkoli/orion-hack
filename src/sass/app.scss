@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,800&display=swap');
+@import "app/misc";
+@import "app/bootstrap-grid";
+@import "app/navbar";
+@import "app/faq";
+
+.backdrop {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+.section-title {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.section-title h1{
+  font-weight: bold;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-image: linear-gradient(to right, #EA4B33 0%, #F09233 100%);
+}
+
+
+.star {
+  opacity: 0.2;
+}
+
+@keyframes startGlow {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.inro-text {
+  visibility: none;
+}
+
+.typewriter {
+  width: fit-content;
+  margin-top: -300px;
+}
+
+.typewriter h3 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+  typing 3.5s steps(40, end) infinite alternate,
+  blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 10% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.schedule-timeline {
+  .timeline-time {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+  }
+  .timeline-job {
+    position: relative;
+    border-left: 3px solid #F09233;
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .timeline-job::before {
+    content: '';
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: #F09233;
+    position: absolute;
+    left: -9px;
+    top: 7px;
+    border-radius: 50%;
+  }
+}

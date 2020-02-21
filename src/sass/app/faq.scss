@@ -1,0 +1,52 @@
+.accordion {
+  background-color: transparent;
+  color: #FFF;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+  content: '\02795';
+  display: block;
+  font-size: 13px;
+  color: #FFF;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+
+.theme-icon img {
+  padding: 20px 50px 0px 50px;
+  width: inherit;
+}
+.theme-icon p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.sponsors {
+  .sponsor-logo-container {
+    width: inherit;
+    background-color: #FFF;
+    border-radius: 16px;
+  }
+  .sponsor-logo {
+    width: inherit;
+  }
+}
