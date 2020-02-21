@@ -306,7 +306,7 @@
           </div>
         </div>
         <div class="center">
-          <h3>Daimond Tier</h3>
+          <h3>Diamond Tier</h3>
         </div>
         <div class="row">
           <div class="col-sm-3">
@@ -331,7 +331,7 @@
           </div>
         </div>
         <div class="center">
-          <h3>Platinium Tier</h3>
+          <h3>Platinum Tier</h3>
         </div>
         <div class="row justify-content-center">
           <div class="col-sm-3">
