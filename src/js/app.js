@@ -23,7 +23,7 @@ $('#navbar').hide();
   });
 
   let devfolioOptions = {
-    buttonSelector: '#devf olio-apply-now',
+    buttonSelector: '#devfolio-apply-now',
     key: 'orionhack',
   }
 
