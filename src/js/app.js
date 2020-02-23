@@ -1,8 +1,6 @@
 $('#navbar').hide();
 (function() {
-  Particles('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-  });
+  particlesJS.load('backdrop', '/dist/js/particlesjs-config.json');
   ScrollReveal().reveal('.inro-text', {delay: 1500});
   $(window).scroll(function(e) {
     if($(this).scrollTop() > 400) {
