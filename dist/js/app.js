@@ -22,6 +22,10 @@ $('#navbar').hide();
     }
   });
 
+  $('.sponsor-logo-container').click(function() {
+    window.open($(this).data('link'), '_blank');
+  });
+
   let devfolioOptions = {
     buttonSelector: '#devfolio-apply-now',
     key: 'orionhack',

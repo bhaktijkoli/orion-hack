@@ -4720,6 +4720,7 @@ html {
 }
 
 .sponsors .sponsor-logo-container {
+  cursor: pointer;
   width: inherit;
   background-color: #FFF;
   border-radius: 16px;
