@@ -6,8 +6,8 @@
           <h1>Schedule</h1>
         </div>
       </div>
-      <div class="offset-6 col-sm-6">
-        <h4>Day 1 (March 16)</h4>
+      <div class="offset-md-6 col-sm-6">
+        <h4 class="timeline-title">Day 1 (March 16)</h4>
         <div class="schedule-timeline">
           <div class="timeline-object">
             <div class="timeline-time">
@@ -84,7 +84,7 @@
         </div>
       </div>
       <div class="col-sm-12">
-        <h4>Day 2 (March 17)</h4>
+        <h4 class="timeline-title">Day 2 (March 17)</h4>
         <div class="schedule-timeline">
           <div class="timeline-object">
             <div class="timeline-time">

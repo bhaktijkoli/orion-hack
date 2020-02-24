@@ -4685,6 +4685,57 @@ html {
   width: 94px;
 }
 
+@media screen and (min-width: 768px) {
+  .schedule-timeline .timeline-time {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+  }
+  .schedule-timeline .timeline-job {
+    position: relative;
+    border-left: 3px solid #F09233;
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .schedule-timeline .timeline-job::before {
+    content: "";
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: #F09233;
+    position: absolute;
+    left: -9px;
+    top: 7px;
+    border-radius: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .timeline-title {
+    text-align: center;
+  }
+
+  .schedule-timeline .timeline-time {
+    font-weight: bold;
+  }
+  .schedule-timeline .timeline-object {
+    position: relative;
+    border-left: 3px solid #F09233;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .schedule-timeline .timeline-object::before {
+    content: "";
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: #F09233;
+    position: absolute;
+    left: -9px;
+    top: 7px;
+    border-radius: 50%;
+  }
+}
 .accordion {
   background-color: transparent;
   color: #FFF;
@@ -4841,29 +4892,6 @@ html {
   50% {
     border-color: orange;
   }
-}
-.schedule-timeline .timeline-time {
-  position: relative;
-  display: inline-block;
-  width: 130px;
-}
-.schedule-timeline .timeline-job {
-  position: relative;
-  border-left: 3px solid #F09233;
-  display: inline-block;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-.schedule-timeline .timeline-job::before {
-  content: "";
-  display: block;
-  height: 16px;
-  width: 16px;
-  background: #F09233;
-  position: absolute;
-  left: -9px;
-  top: 7px;
-  border-radius: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */

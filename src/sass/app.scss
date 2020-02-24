@@ -2,6 +2,7 @@
 @import "app/misc";
 @import "app/bootstrap-grid";
 @import "app/navbar";
+@import "app/schedule";
 @import "app/faq";
 @import "app/devfolio";
 
@@ -74,31 +75,4 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
-}
-
-
-.schedule-timeline {
-  .timeline-time {
-    position: relative;
-    display: inline-block;
-    width: 130px;
-  }
-  .timeline-job {
-    position: relative;
-    border-left: 3px solid #F09233;
-    display: inline-block;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
-  .timeline-job::before {
-    content: '';
-    display: block;
-    height: 16px;
-    width: 16px;
-    background: #F09233;
-    position: absolute;
-    left: -9px;
-    top: 7px;
-    border-radius: 50%;
-  }
 }

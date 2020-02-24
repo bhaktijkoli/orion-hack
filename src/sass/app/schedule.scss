@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+  .schedule-timeline {
+    .timeline-time {
+      position: relative;
+      display: inline-block;
+      width: 130px;
+    }
+    .timeline-job {
+      position: relative;
+      border-left: 3px solid #F09233;
+      display: inline-block;
+      padding-left: 20px;
+      padding-bottom: 20px;
+    }
+    .timeline-job::before {
+      content: '';
+      display: block;
+      height: 16px;
+      width: 16px;
+      background: #F09233;
+      position: absolute;
+      left: -9px;
+      top: 7px;
+      border-radius: 50%;
+    }
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .timeline-title {
+    text-align: center;
+  }
+  .schedule-timeline {
+    .timeline-time {
+      font-weight: bold;
+    }
+    .timeline-object {
+      position: relative;
+      border-left: 3px solid #F09233;
+      padding-left: 20px;
+      padding-bottom: 20px;
+    }
+    .timeline-object::before {
+      content: '';
+      display: block;
+      height: 16px;
+      width: 16px;
+      background: #F09233;
+      position: absolute;
+      left: -9px;
+      top: 7px;
+      border-radius: 50%;
+    }
+  }
+
+}
