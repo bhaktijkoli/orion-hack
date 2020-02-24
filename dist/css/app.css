@@ -35,7 +35,16 @@ section {
 
 @media screen and (max-width: 768px) {
   .only-desktop {
-    display: none;
+    display: none !important;
+  }
+
+  section {
+    padding: 0px 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .only-mobile {
+    display: none !important;
   }
 }
 /*!
@@ -4782,16 +4791,13 @@ html {
   background-image: linear-gradient(to right, #EA4B33 0%, #F09233 100%);
 }
 
-.star {
-  opacity: 0.2;
-}
-
-@keyframes startGlow {
-  from {
-    opacity: 0.1;
+@media screen and (max-width: 768px) {
+  .section-title {
+    text-align: center !important;
   }
-  to {
-    opacity: 0.5;
+
+  .section-title::after {
+    width: 100% !important;
   }
 }
 .inro-text {
@@ -4810,6 +4816,11 @@ html {
   margin: 0 auto;
   letter-spacing: 0.15em;
   animation: typing 3.5s steps(40, end) infinite alternate, blink-caret 0.75s step-end infinite;
+}
+
+.logo-mini {
+  width: 60vw;
+  margin-top: 100px;
 }
 
 /* The typing effect */
