@@ -1,6 +1,6 @@
 .accordion {
   background-color: transparent;
-  color: #FFF;
+  color: #fff;
   font-size: 0.9em;
   cursor: pointer;
   padding: 18px;
@@ -21,10 +21,10 @@
   font-size: 0.8em;
 }
 .accordion:after {
-  content: '\02795';
+  content: "\02795";
   display: block;
   font-size: 13px;
-  color: #FFF;
+  color: #fff;
   float: right;
   margin-left: 5px;
 }
@@ -32,7 +32,6 @@
 .active:after {
   content: "\2796";
 }
-
 
 .theme-icon img {
   padding: 20px 50px 0px 50px;
@@ -47,11 +46,11 @@
   .sponsor-logo-container {
     cursor: pointer;
     width: inherit;
-    background-color: #FFF;
+    background-color: #fff;
     border-radius: 16px;
     margin-bottom: 20px;
   }
-  .sponsor-logo {
+  .finance-logo {
     width: inherit;
   }
 }

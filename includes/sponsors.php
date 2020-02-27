@@ -13,7 +13,7 @@
         <div class="row justify-content-center">
           <div class="col-sm-6">
             <div class="sponsor-logo-container" data-link="https://devfolio.co/">
-              <img class="sponsor-logo" src="/dist/img/image-content/devfolio.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/devfolio.png"/>
             </div>
           </div>
         </div>
@@ -23,22 +23,22 @@
         <div class="row">
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://www.wolfram.com/">
-              <img class="sponsor-logo" src="/dist/img/image-content/wolfram-language.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/wolfram-language.png"/>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://cloudsploit.com/">
-              <img class="sponsor-logo" src="/dist/img/image-content/cloudsploit.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/cloudsploit.png"/>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://devfolio.co/">
-              <img class="sponsor-logo" src="/dist/img/image-content/fold.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/fold.png"/>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://matic.network/">
-              <img class="sponsor-logo" src="/dist/img/image-content/matic.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/matic.png"/>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://www.bugsee.com/">
-              <img class="sponsor-logo" src="/dist/img/image-content/bugsee.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/bugsee.png"/>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://gen.xyz/">
-              <img class="sponsor-logo" src="/dist/img/image-content/xyz.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/xyz.png"/>
             </div>
           </div>
         </div>
@@ -68,12 +68,12 @@
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://www.creative-tim.com/">
-              <img class="sponsor-logo" src="/dist/img/image-content/creative_tim.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/creative_tim.png"/>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://www.gatsbyjs.org/">
-              <img class="sponsor-logo" src="/dist/img/image-content/gatsby.png"/>
+              <img class="finance-logo" src="/dist/img/image-content/gatsby.png"/>
             </div>
           </div>
         </div>
