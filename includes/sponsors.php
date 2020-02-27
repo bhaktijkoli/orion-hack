@@ -78,6 +78,11 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-12">
+        <div class="center" style="margin-top:100px">
+          <a class="button" href="https://drive.google.com/file/d/1HvcNkqxtdC0V797kn8XSRnEHPQoZ53ci/view" target="_blank">Sponsor us</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>

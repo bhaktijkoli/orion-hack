@@ -54,6 +54,11 @@
           </p>
         </div>
       </div>
+      <div class="col-sm-12">
+        <div class="center" style="margin-top:100px">
+          <a class="button" href="https://devfolio.co/code-of-conduct" target="_blank">Code of Conduct</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
