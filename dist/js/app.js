@@ -47,9 +47,9 @@ $("#navbar").hide();
     document
       .querySelector(devfolioOptions.buttonSelector)
       .addEventListener("touchstart", buttonExec);
-    document
-      .querySelector(devfolioOptions.buttonSelector)
-      .addEventListener("click", buttonExec);
+    // document
+    //   .querySelector(devfolioOptions.buttonSelector)
+    //   .addEventListener("click", buttonExec);
   };
 
   function buttonExec() {
