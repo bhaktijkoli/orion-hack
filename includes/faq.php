@@ -7,15 +7,15 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <button class="accordion">What are the eligibility criteria?</button>
+        <button class="accordion">What's the eligibility criteria?</button>
         <div class="panel">
           <p>Any college student, pursuing undergraduate, post-graduate or PhD, can be a part of OrionHack.</p>
         </div>
         <button class="accordion">How to participate?</button>
         <div class="panel">
-          <p>Details to be released soon.</p>
+          <p>Applicants can participate through the 'Apply with Devfolio' button above.</p>
         </div>
-        <button class="accordion">Are there any registration fees?</button>
+        <button class="accordion">Is there any registration fees?</button>
         <div class="panel">
           <p>No, it’s absolutely free of cost.</p>
         </div>
@@ -25,13 +25,13 @@
         </div>
         <button class="accordion">What will be the criteria for shortlisting?</button>
         <div class="panel">
-          <p>Individual participants will not be shortlisted. Only complete teams will be considered for shortlisting. Further details to be released soon!</p>
+          <p>Team registrations will be evaluated on the basis of their profiles. Individual participants will be added to a telegram group to form a team of 2 or 3 members.</p>
         </div>
       </div>
       <div class="col-sm-6">
         <button class="accordion">Will Travel reimbursement be provided?</button>
         <div class="panel">
-          <p>Yes, Travel reimbursement will be provided.</p>
+          <p>Yes, Travel reimbursement will be provided for teams/individuals arriving from outside Maharashtra.</p>
         </div>
         <button class="accordion">Will food be provided?</button>
         <div class="panel">
@@ -48,7 +48,7 @@
         <button class="accordion">Can I start working on my hack before the event?</button>
         <div class="panel">
           <p>No. In the interest of fairness, students should not be working on their projects
-            before Hack in the North begins and we do not allow participants to work on
+            before OrionHack begins and we do not allow participants to work on
             pre-existing projects. However, you can familiarize yourself with all the tools and
             technologies you intend to use beforehand!
           </p>
