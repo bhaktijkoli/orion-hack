@@ -1,0 +1,21 @@
+#prizes {
+  .prize {
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .gold {
+    height: 220px;
+  }
+  .silver, .bronze {
+    margin-top: 60px;
+    height: 160px;
+  }
+  .number {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+  .label {
+    font-size: 0.8em;
+    margin: 0px;
+  }
+}

@@ -4823,6 +4823,26 @@ html {
   width: inherit;
 }
 
+#prizes .prize {
+  margin: 20px 0px;
+  text-align: center;
+}
+#prizes .gold {
+  height: 220px;
+}
+#prizes .silver, #prizes .bronze {
+  margin-top: 60px;
+  height: 160px;
+}
+#prizes .number {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+#prizes .label {
+  font-size: 0.8em;
+  margin: 0px;
+}
+
 #devfolio-apply-now {
   -ms-flex-align: center;
   -webkit-box-align: center;
