@@ -4698,6 +4698,22 @@ html {
   width: 94px;
 }
 
+.footer {
+  background: #000;
+  border-top: 1px solid #EA4B33;
+  padding: 15px;
+}
+.footer .copyright {
+  margin: 0px;
+}
+.footer .social-link-container {
+  float: right;
+}
+.footer .social-link {
+  color: #FFF;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .schedule-timeline .timeline-time {
     position: relative;

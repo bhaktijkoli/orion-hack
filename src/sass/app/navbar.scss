@@ -46,3 +46,19 @@
   right: 0;
   width: 94px;
 }
+
+.footer {
+  background: #000;
+  border-top: 1px solid #EA4B33;
+  padding: 15px;
+  .copyright {
+    margin: 0px;
+  }
+  .social-link-container {
+    float: right;
+  }
+  .social-link {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
