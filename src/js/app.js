@@ -1,56 +1,61 @@
-$('#navbar').hide();
+$("#navbar").hide();
 (function() {
-  particlesJS.load('backdrop', '/dist/js/particlesjs-config.json');
-  ScrollReveal().reveal('.inro-text', {delay: 1500});
+  particlesJS.load("backdrop", "/dist/js/particlesjs-config.json");
+  ScrollReveal().reveal(".inro-text", { delay: 1500 });
   $(window).scroll(function(e) {
-    if($(this).scrollTop() > 400) {
-      $('#navbar').slideDown(200);
+    if ($(this).scrollTop() > 400) {
+      $("#navbar").slideDown(200);
     } else {
-      $('#navbar').hide();
+      $("#navbar").hide();
     }
   });
 
-  $("a").on('click', function(event) {
+  $("a").on("click", function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
     }
   });
 
-  $('.sponsor-logo-container').click(function() {
-    window.open($(this).data('link'), '_blank');
+  $(".sponsor-logo-container").click(function() {
+    window.open($(this).data("link"), "_blank");
   });
 
   let devfolioOptions = {
-    buttonSelector: '#devfolio-apply-now',
-    key: 'orionhack',
-  }
+    buttonSelector: "#devfolio-apply-now",
+    key: "orionhack"
+  };
 
-  let script = document.createElement('script');
+  let script = document.createElement("script");
   script.src = "https://apply.devfolio.co";
   document.head.append(script);
 
-  script.onload = function () {
+  script.onload = function() {
     new Devfolio(devfolioOptions);
-  }
+  };
 
-  script.onerror = function () {
-    document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-      window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-    });
-  }
-
-})()
+  script.onerror = function() {
+    document
+      .querySelector(devfolioOptions.buttonSelector)
+      .addEventListener("touchstart click", function() {
+        window.location.href =
+          "https://devfolio.co/external-apply/" + devfolioOptions.key;
+      });
+  };
+})();
 
 function getRandomArbitrary(min, max) {
   return Math.random() * (max - min) + min;
 }
-
 
 var acc = document.getElementsByClassName("accordion");
 var i;
