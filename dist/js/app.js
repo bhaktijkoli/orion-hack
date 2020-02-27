@@ -46,16 +46,11 @@ $("#navbar").hide();
   script.onerror = function() {
     document
       .querySelector(devfolioOptions.buttonSelector)
-      .addEventListener("touchstart", buttonExec);
-    // document
-    //   .querySelector(devfolioOptions.buttonSelector)
-    //   .addEventListener("click", buttonExec);
+      .addEventListener("click", function() {
+        window.location.href =
+          "https://devfolio.co/external-apply/" + devfolioOptions.key;
+      });
   };
-
-  function buttonExec() {
-    window.location.href =
-      "https://devfolio.co/external-apply/" + devfolioOptions.key;
-  }
 })();
 
 function getRandomArbitrary(min, max) {
