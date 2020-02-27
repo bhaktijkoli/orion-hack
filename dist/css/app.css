@@ -4739,7 +4739,7 @@ html {
 .accordion {
   background-color: transparent;
   color: #FFF;
-  font-size: 1.2em;
+  font-size: 0.9em;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -4754,6 +4754,10 @@ html {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+  font-size: 0.8em;
 }
 
 .accordion:after {

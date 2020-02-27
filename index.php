@@ -17,34 +17,7 @@
   <?php  include('includes/schedule.php')?>
   <?php  include('includes/theme.php')?>
   <?php  include('includes/sponsors.php')?>
-
-  <!-- <section class="faq">
-  <div class="container">
-  <div class="row">
-  <div class="col-sm-12">
-  <div class="section-title">
-  <h1>FAQ</h1>
-</div>
-</div>
-<div class="col-sm-6">
-<button class="accordion">Section 1</button>
-<div class="panel">
-<p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 2</button>
-<div class="panel">
-<p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-<p>Lorem ipsum...</p>
-</div>
-</div>
-</div>
-</div>
-</section> -->
+  <?php  include('includes/faq.php')?>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js"></script>
 <script type="text/javascript" src="/dist/js/particles.js"></script>
