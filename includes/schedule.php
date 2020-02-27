@@ -75,7 +75,7 @@
           </div>
           <div class="timeline-object">
             <div class="timeline-time">
-              01:30 PM
+              01:30 AM
             </div>
             <div class="timeline-job">
               Midnight Snacks
