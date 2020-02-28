@@ -4844,6 +4844,7 @@ html {
 }
 
 #devfolio-apply-now {
+  text-decoration: none;
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;

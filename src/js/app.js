@@ -34,15 +34,7 @@ $("#navbar").hide();
     buttonSelector: "#devfolio-apply-now",
     key: "orionhack"
   };
-
-  if( ( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) ) {
-    document
-    .querySelector(devfolioOptions.buttonSelector)
-    .addEventListener("click", function() {
-      window.location.href =
-      "https://devfolio.co/external-apply/" + devfolioOptions.key;
-    });
-  } else {    
+  if( window.innerWidth >= 800 ) {
     let script = document.createElement("script");
     script.src = "https://apply.devfolio.co";
     document.head.append(script);
