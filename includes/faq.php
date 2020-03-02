@@ -31,7 +31,7 @@
       <div class="col-sm-6">
         <button class="accordion">Will Travel reimbursement be provided?</button>
         <div class="panel">
-          <p>Yes, Travel reimbursement will be provided for teams/individuals arriving from outside Maharashtra.</p>
+          <p>Yes, A fixed amount of travel reimbursement will be provided for teams/individuals arriving from outside Maharashtra.</p>
         </div>
         <button class="accordion">Will food be provided?</button>
         <div class="panel">

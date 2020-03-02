@@ -51,11 +51,6 @@
               <img class="finance-logo" src="/dist/img/image-content/bugsee.png"/>
             </div>
           </div>
-        </div>
-        <div class="center">
-          <h3>Gold Tier</h3>
-        </div>
-        <div class="row justify-content-center">
           <div class="col-sm-3">
             <div class="sponsor-logo-container" data-link="https://gen.xyz/">
               <img class="finance-logo" src="/dist/img/image-content/xyz.png"/>
@@ -63,7 +58,27 @@
           </div>
         </div>
         <div class="center">
-          <h3>Silver Tier</h3>
+          <h3>Gold Tier</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-3">
+            <div class="sponsor-logo-container" data-link="https://www.gatsbyjs.org/">
+              <img class="finance-logo" src="/dist/img/image-content/gatsby.png"/>
+            </div>
+          </div>
+        </div>
+        <div class="center">
+          <h3>Smart Browsing Partner</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-3">
+            <div class="sponsor-logo-container" data-link="https://www.gatsbyjs.org/">
+              <img class="finance-logo" src="/dist/img/image-content/popshot.png"/>
+            </div>
+          </div>
+        </div>
+        <div class="center">
+          <h3>Others</h3>
         </div>
         <div class="row justify-content-center">
           <div class="col-sm-3">
@@ -72,8 +87,13 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="sponsor-logo-container" data-link="https://www.gatsbyjs.org/">
-              <img class="finance-logo" src="/dist/img/image-content/gatsby.png"/>
+            <div class="sponsor-logo-container" data-link="https://www.creative-tim.com/">
+              <img class="finance-logo" src="/dist/img/image-content/balsamiq.png"/>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="sponsor-logo-container" data-link="https://www.creative-tim.com/">
+              <img class="finance-logo" src="/dist/img/image-content/quality-software.png"/>
             </div>
           </div>
         </div>
