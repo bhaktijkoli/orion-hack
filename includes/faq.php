@@ -23,6 +23,10 @@
         <div class="panel">
           <p>Form a team, consisting of minimum 2 and maximum 3 members.</p>
         </div>
+        <button class="accordion">Is there any threshold for number of teams to be selected?</button>
+        <div class="panel">
+          <p>Yes, Only 30 teams will be selected based on individual's profile.</p>
+        </div>
         <button class="accordion">What will be the criteria for shortlisting?</button>
         <div class="panel">
           <p>Team registrations will be evaluated on the basis of their profiles. Individual participants will be added to a telegram group to form a team of 2 or 3 members.</p>
@@ -36,6 +40,10 @@
         <button class="accordion">Will food be provided?</button>
         <div class="panel">
           <p>Full 3 meals would be provided for 2 days, Monday and Tuesday. Snacks would be provided regularly during the entire course of the hackathon.</p>
+        </div>
+        <button class="accordion">What will be expected from us to build during the hackathon?</button>
+        <div class="panel">
+          <p>Participants must come up with their own problem statement based on the themes provided. No problem statement will be provided by the Orionhack.</p>
         </div>
         <button class="accordion">Once I am accepted, what do I need to bring?</button>
         <div class="panel">
