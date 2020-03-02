@@ -72,7 +72,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-sm-3">
-            <div class="sponsor-logo-container" data-link="https://www.gatsbyjs.org/">
+            <div class="sponsor-logo-container" data-link="https://popshot.app/">
               <img class="finance-logo" src="/dist/img/image-content/popshot.png"/>
             </div>
           </div>
@@ -87,12 +87,12 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="sponsor-logo-container" data-link="https://www.creative-tim.com/">
+            <div class="sponsor-logo-container" data-link="https://balsamiq.com/">
               <img class="finance-logo" src="/dist/img/image-content/balsamiq.png"/>
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="sponsor-logo-container" data-link="https://www.creative-tim.com/">
+            <div class="sponsor-logo-container" data-link="https://qualitysoftech.com/">
               <img class="finance-logo" src="/dist/img/image-content/quality-software.png"/>
             </div>
           </div>
