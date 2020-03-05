@@ -4828,11 +4828,11 @@ html {
   text-align: center;
 }
 #prizes .gold {
-  height: 220px;
+  height: 360px;
 }
 #prizes .silver, #prizes .bronze {
   margin-top: 60px;
-  height: 160px;
+  height: 280px;
 }
 #prizes .number {
   font-size: 1.4em;
