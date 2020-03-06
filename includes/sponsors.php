@@ -53,6 +53,11 @@
               <img class="finance-logo" src="/dist/img/image-content/xyz.png"/>
             </div>
           </div>
+          <div class="col-sm-3">
+            <div class="sponsor-logo-container" data-link="">
+              <img class="finance-logo" src="/dist/img/image-content/eha-solutions.png"/>
+            </div>
+          </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-sm-3">
